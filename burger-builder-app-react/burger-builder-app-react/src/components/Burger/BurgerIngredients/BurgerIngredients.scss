@@ -1,0 +1,10 @@
+.burger-ingredients {
+  width: 80%;
+  height: 100%;
+  overflow: auto;
+  text-align: center;
+
+  @media (max-width: 500px) {
+    width: 100%;
+  }
+}

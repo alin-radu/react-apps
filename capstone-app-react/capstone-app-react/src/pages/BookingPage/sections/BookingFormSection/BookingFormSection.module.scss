@@ -1,0 +1,18 @@
+@import "styles";
+
+.section-container {
+  @include main-container;
+  max-width: 500px;
+  padding: 3rem;
+  border-radius: $border-radius-small;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  position: relative;
+
+  h3 {
+    font-family: "Karla";
+    color: $dark-secondary;
+    display: block;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+  }
+}

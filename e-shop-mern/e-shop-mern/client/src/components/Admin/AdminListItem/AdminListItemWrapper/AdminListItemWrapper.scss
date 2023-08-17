@@ -1,0 +1,23 @@
+.admin-list-item-wrapper {
+  width: 100%;
+  border: 1px solid #000;
+  border-radius: 5px;
+  cursor: grab;
+
+  &-info {
+    height: 105px;
+    margin-bottom: 1rem;
+    @media (max-width: 576px) {
+      height: 126px;
+    }
+
+    &-status {
+      width: 340px;
+      margin-top: 0.5rem;
+
+      @media (max-width: 576px) {
+        width: 100%;
+      }
+    }
+  }
+}

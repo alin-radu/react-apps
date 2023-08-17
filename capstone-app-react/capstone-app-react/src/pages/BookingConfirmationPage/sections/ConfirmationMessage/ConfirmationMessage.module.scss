@@ -1,0 +1,41 @@
+@import "styles";
+
+.section-container {
+  @include main-container;
+  max-width: 500px;
+  padding: 3rem;
+  margin-top: 5rem;
+  background-color: $green-primary;
+  border-radius: $border-radius-small;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  color: white;
+  text-align: center;
+
+
+  h3 {
+    font-family: "Karla";
+    color: $dark-secondary;
+    display: block;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: $yellow-primary;
+    opacity: 0.5;
+  }
+
+  h4,
+  p {
+    font-family: "Karla";
+    font-weight: 500;
+  }
+
+  h4 {
+    margin-bottom: 2rem;
+  }
+
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+  .section-container {
+    margin-top: 3rem;
+  }
+}

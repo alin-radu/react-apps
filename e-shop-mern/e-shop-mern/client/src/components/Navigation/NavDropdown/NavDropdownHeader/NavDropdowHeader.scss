@@ -1,0 +1,29 @@
+.nav-dropdown-header {
+  color: #fff;
+
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  padding-right: 5px;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+
+  &.active {
+    color: #919aa1;
+  }
+
+  svg {
+    width: 1.1rem;
+    height: 1.1rem;
+    fill: #fff;
+    margin-left: 3px;
+    transition: fill 0.2s ease-in-out;
+  }
+  &:hover,
+  .active {
+    svg {
+      fill: #919aa1;
+    }
+  }
+}

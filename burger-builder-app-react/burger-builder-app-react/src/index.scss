@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+//Variables
+$color-brown-main: #cf8f2e;
+$color-brown-light: #f08e4a;
+$color-brown-dark: #8f5e1e;
+$color-gray-main: #c9c9c9;
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  overflow: auto;
+}
+
+p {
+  padding: 1rem 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+html {
+  background-color: $color-gray-main;
+}
+
+//Utilities
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.flexyx-center {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.mg-auto {
+  margin: 0 auto;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+
+.m-top {
+  margin-top: 0;
+}
+
+.my {
+  &-1 {
+    margin: 1rem auto;
+  }
+
+  &-2 {
+    margin: 2rem auto;
+  }
+
+  &-4 {
+    margin: 4rem auto;
+  }
+}
+
+.p {
+  &-1 {
+    padding: 1rem;
+  }
+  &-2 {
+    padding: 2rem;
+  }
+  &-3 {
+    padding: 3rem;
+  }
+}
+
+.py {
+  &-1 {
+    padding: 1rem 0;
+  }
+  &-2 {
+    padding: 2rem 0;
+  }
+}
+
+.px-1 {
+  padding: 0 1rem;
+}
+
+.bg {
+  &-brown-main {
+    background: $color-brown-main;
+  }
+  &-brown-light {
+    background: $color-brown-light;
+  }
+
+  &-brown-dark {
+    background: $color-brown-dark;
+  }
+
+  &-gray-main {
+    background: #c9c9c9;
+  }
+}

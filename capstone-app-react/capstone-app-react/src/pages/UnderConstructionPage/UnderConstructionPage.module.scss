@@ -1,0 +1,15 @@
+@import "styles";
+
+.section-container {
+  @include main-container;
+
+  width: 100%;
+  height: 100%;
+
+  p {
+    font-family: "Karla";
+    color: $dark-secondary;
+    display: block;
+    font-weight: 700;
+  }
+}

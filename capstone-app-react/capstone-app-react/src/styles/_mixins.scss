@@ -1,0 +1,13 @@
+@import './colors';
+
+@mixin main-container {
+  width: 100%;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+@mixin background-yellow-radius {
+  cursor: pointer;
+  background-color: $yellow-primary;
+  border-radius: $border-radius-small;
+}

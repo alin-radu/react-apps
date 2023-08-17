@@ -1,0 +1,23 @@
+@import '../../styles/';
+
+.section-container {
+  @include main-container;
+
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+  color: #495e57;
+
+  p {
+    font-size: 0.75rem;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+  .section-container {
+    margin-top: 3rem;
+    padding: 0 1rem 2rem 1rem;
+  }
+}

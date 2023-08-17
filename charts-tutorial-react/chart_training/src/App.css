@@ -1,0 +1,13 @@
+.app-section {
+  max-width: 1744px;
+
+  margin: 100px auto 0 auto;
+  border: 1px solid black;
+  padding: 0px 50px 20px 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-article {
+  height: 497px;
+}

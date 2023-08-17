@@ -1,0 +1,15 @@
+.cart-dropdown-items {
+  height: 100%;
+  overflow: auto;
+
+  h2 {
+    margin-top: 3rem;
+    text-align: center;
+  }
+
+  &-empty-message {
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+  }
+}

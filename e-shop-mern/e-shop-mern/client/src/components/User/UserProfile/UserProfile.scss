@@ -1,0 +1,52 @@
+.user-profile,
+.user-profile-edit {
+  width: 100%;
+  max-width: 350px;
+
+  & input {
+    border: none;
+  }
+
+  & input[type='password'],
+  label[for='password'],
+  label[for='confirmPassword'] {
+    visibility: hidden;
+  }
+
+  & input {
+    pointer-events: none;
+  }
+  &-edit {
+    & input[type='password'],
+    label[for='password'],
+    label[for='confirmPassword'] {
+      visibility: visible;
+    }
+
+    & input {
+      border: 1px solid #000;
+      pointer-events: visible;
+    }
+  }
+
+  &-spinner {
+    margin-top: 1rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &-button {
+    height: 73px;
+  }
+  &-footer {
+    color: #adb5bd;
+    text-align: center;
+    & span {
+      color: #343a40;
+      font-weight: bolder;
+      cursor: pointer;
+    }
+  }
+}

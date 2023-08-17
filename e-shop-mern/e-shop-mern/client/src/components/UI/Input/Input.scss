@@ -1,0 +1,38 @@
+.input {
+  display: block;
+  text-align: left;
+
+  &-label {
+    font-weight: bold;
+    display: block;
+    margin: 0.5rem auto 0.5rem auto;
+  }
+
+  textarea {
+    padding: 0.5rem;
+    height: 4rem;
+    text-align: justify;
+  }
+
+  input[type='file'] {
+    padding: 0.5rem 0 0.5rem 0;
+  }
+
+  &-element {
+    width: 100%;
+    min-height: 2rem;
+    resize: vertical;
+    padding-left: 10px;
+    font-size: 1rem;
+    outline: none;
+
+    &:focus,
+    &:hover {
+      background: #eceeef;
+    }
+
+    &.invalid {
+      border: 1px solid #f00;
+    }
+  }
+}
